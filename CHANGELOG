@@ -1,0 +1,27 @@
+# CLIP ChangeLog for app-clip/downloadrequest
+
+  11 Sep 2014; Yves-Alexis Perez <clipos@ssi.gouv.fr>
+  downloadrequest-1.1.1.ebuild:
+  Add amd64 keyword.
+
+  29 Nov 2007; Vincent Strubel <clipos@ssi.gouv.fr>
+  -downloadrequest-1.1.ebuild, -downloadrequest-1.0.ebuild:
+  Remove stale ebuilds.
+
+*downloadrequest-1.1.1 (12 Nov 2007)
+
+  12 Nov 2007; EADS D&S <clipos@ssi.gouv.fr>
+  +downloadrequest-1.1.1.ebuild:
+  Ticket 58 correction (if download is locked, print a specific message)
+
+*downloadrequest-1.1 (04 Oct 2007)
+
+  04 Oct 2007; EADS D&S <clipos@ssi.gouv.fr>
+  +downloadrequest-1.1.ebuild:
+  Complete man pages.
+
+*downloadrequest-1.0 (31 Aug 2007)
+
+  31 Aug 2007; EADS D&S <clipos@ssi.gouv.fr>
+  +downloadrequest-1.0.ebuild:
+  Initial import.

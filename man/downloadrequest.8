@@ -1,0 +1,54 @@
+.TH DOWNLOAD_REQUEST 8 "OCTOBER 2007" Linux "User Manuals"
+.SH NAME
+downloadrequest \- Clip download client.
+.SH SYNOPSIS
+.B downloadrequest
+.I action jail
+.SH DESCRIPTION
+.B downloadrequest 
+performs download operations depending on the 
+.I action
+parameter.
+
+.SH MANDATORY PARAMETERS
+.I action
+can have the following values :
+.PP
+\-
+.BR launch
+to launch clip-download depending on the
+.I jail
+argument.
+.PP
+\-
+.BR lock
+to lock the overall clip update process of
+.I jail
+.PP
+\-
+.BR unlock
+to unlock the overall clip update process of
+.I jail
+.PP
+.I jail
+can have the following values :
+.PP
+\-
+.BR clip 
+to launch clip-download for the clip jail. 
+.PP
+\-
+.BR rm_h
+to launch clip-download for the rm_h jail. 
+.PP
+\-
+.BR rm_b
+to launch clip-download for the rm_b jail. 
+
+.SH DIAGNOSTICS
+.B downloadrequest
+returns -1 if an error occured, 0 otherwise.
+.SH AUTHORS
+EADS Defence And Security Systems
+.SH SEE ALSO
+.BR clip_download (8)
